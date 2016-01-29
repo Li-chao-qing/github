@@ -1,0 +1,302 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width: 980px;
+	color:#333;
+}
+a{
+	text-decoration: none;
+	color:#4078c0;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin:0;
+	font-weight: normal;
+	padding:0;
+	list-style: none;
+}
+.section{
+	padding:80px 0;
+	border-bottom:1px solid #e5e5e5;
+}
+.container{
+	margin:0 auto;
+	width:980px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.btn{
+	margin: 0 auto;
+	  display: inline-block;
+  /*padding: 10px 78px;*/
+	text-align: center;
+	color: #fff;
+	padding:12px 20px;
+	font-size: 18px;
+	border-radius: 6px;
+	/*border:1px solid red;*/
+}
+
+.sub-title{
+	font-size:42px;
+	text-align: center;
+	font-weight:normal;
+
+}
+
+.sub-info{
+	color:#767676;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+/*头部开始*//*第一块开始   公用的放在开始*/
+.header{
+	padding:15px 0;
+	background: #f5f5f5;
+}
+.logo{
+	float:left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+
+}
+.logo a{
+	color:#333;
+}
+.search{
+	text-align: left;
+	float:left;
+	border: 1px solid #ccc;
+	background: #fff;
+	font-size: 12px;
+	color:#ccc;
+	
+	width:360px;
+	padding-left:10px;
+	border-radius: 3px;
+	margin-right: 15px;
+}
+.header-c{
+	height:28px;
+	line-height: 28px;
+}
+
+.functionlist{
+	float: left;
+
+}
+.functionlist li{
+	float:left;
+	padding:0 6px;
+	font-size: 13px;
+	font-weight:bold;
+}
+.functionlist li a{
+	color: #333;
+}
+.siin,.siup{
+	float: right;
+	padding:6px 12px;
+	font-size: 13px;
+	border-radius: 3px;
+	border:1px solid #d5d5d5;
+	line-height: 20px;
+	font-weight: bold;
+	margin-top: -3px;
+}
+/*.siup{
+	float: right;
+	padding:6px 12px;
+	font-size: 13px;
+	border-radius: 6px;
+	border:1px solid #ccc;
+
+}*/
+.siup{
+	border-color:#5ca941;
+    background-color: #60b044;
+    background-image: linear-gradient(#8add6d, #60b044);
+}
+.siin{
+	color:black;
+	/*background:#eee;*/
+   /*background-image: linear-gradient(#eee, #ddd);*/
+     background-image: linear-gradient(#fcfcfc, #eee);
+	 margin-left: 10px; 
+}
+
+/*第二部分*/
+
+
+/*待优化*/
+
+
+.main{
+	background: #202020 url(../images/octicons-bg.png);
+	/*background: #202020;*/
+	border-bottom: none;
+}
+.signup-form{
+	text-align: center;
+	width:320px;
+	height:351px;
+	/*border:1px solid white;*/
+	float:right;
+}
+.main-intro{
+	text-align: left;
+	color:#f5f5f5;
+	/*border:1px solid red;*/
+	width:650px;
+	float:left;
+}
+.main-intro p{
+	font-size: 21px;
+	line-height: 1.5em;
+}
+/*TODO待优化 ()   浮动的收缩问题)浮动造成的问题*/
+.main-c{
+	height:351px;
+}
+
+.big-title{
+	font-size: 70px;
+	padding-top:10px;
+	margin-bottom: 15px;
+	font-weight:normal;
+
+}
+.user{
+	text-align: left;
+	height:44px;
+	margin-bottom: 5px;
+	padding-left:20px;
+	color:#707070;
+	background:#fafafa;
+	line-height: 44px;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.zi-info{
+	text-align: left;
+	font-size: 13px;
+	color:#767676;
+	margin:10px 0;
+}
+.signup{
+	padding:12px 78px;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+
+/*第三部分*/
+.enterprise{
+	text-align: center; 
+	height:250px;
+	overflow: hidden;
+	background-image: linear-gradient(#202d5f,#614381);
+}
+
+.sub-title a{
+	color:#fff;
+}
+.blue{
+	width:320px;
+	/*margin:12px auto;*/
+
+	
+	background-image:linear-gradient(#45b3f3,#1d6ac8);
+}
+.blue a{
+	color:#fff;
+}
+.enterprise  .sub-title{
+
+	margin-bottom: 20px;
+}
+.gh-image{
+	width:100%;
+	margin-top: 40px;
+	
+}
+
+/*第四部分*/
+
+.love-reason{
+	width:440px;
+	text-align:center;
+	float:left;
+	padding:20px 25px 40px;
+}
+.love{
+	height:660px;
+}
+.l-img{
+	width:48px;
+	height:48px;
+	border:1px solid #e5e5e5;
+	margin:0px auto 15px;
+	border-radius: 50%;
+	/*text-align:center;*/
+	/*可以使图片居中*/
+	padding:25px 25px;
+
+
+}
+.love-reason p{
+	
+	margin:5px 20px;
+}
+.pxia{
+	margin-bottom: 42px;
+	font-size: 20px;
+}
+.loveh3{
+	margin:15px 0;
+}
+
+
+/*第五部分*/
+.green{
+	  background-image: linear-gradient(#8add6d, #60b044);
+	  width:287px;
+	  margin:12px auto;
+}
+.green a{
+	color:#fff;
+}
+.mac{
+	text-align: center;
+	margin-top:40px;
+}
+
+
+
+/*第六部分*/
+/*.end{
+	overflow: hidden;
+}*/	
+
+.end-zi{
+	font-size: 12px;
+	color:#767676;
+}
+.end-left li{
+	float:left;
+	margin-right:10px;
+}
+.end-right li{
+	float:right;
+	margin-left:10px;
+}
+.co-end{
+	padding:41px 0;
+	height:16px;
+}
+.co-end img{
+	margin-left:170px;
+	float:left;
+	margin-top:-5px;
+	}
